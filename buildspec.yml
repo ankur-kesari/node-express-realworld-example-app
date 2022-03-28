@@ -7,8 +7,8 @@ phases:
   pre_build:
     commands:
       - echo Build Started on `date`
-      - echo MONGODB_URI=$MONGO_URL >> .env
-      - echo PORT=3000 > .env
+      - echo MONGODB_URI=$MONGO_URL > .env
+      - echo PORT=3000 >> .env
        
   build:
     commands:
