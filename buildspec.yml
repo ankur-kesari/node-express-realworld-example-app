@@ -1,7 +1,7 @@
 version: 0.2
 env: 
   parameter-store: 
-    MONGO_URL: "/ankur/mongo"
+    MONGO_URL: "/ankur/mongostring"
 phases:  
     
   pre_build:
