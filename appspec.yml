@@ -4,6 +4,11 @@ files:
   - source: /
     destination: /home/ubuntu/node-app
 hooks:
+  
+  Install:
+    - location: scripts/prestart.sh
+      timeout: 300
+      runas: ubuntu
       
   ApplicationStart:
     - location: scripts/start.sh
