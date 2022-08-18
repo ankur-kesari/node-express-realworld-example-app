@@ -4,6 +4,3 @@ sudo pm2 start app.js
 sudo pm2 startup 
 sudo pm2 save
 
-sudo chmod +x ./scripts/test.sh
-source ./scripts/test.sh
-
