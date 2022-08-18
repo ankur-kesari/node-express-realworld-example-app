@@ -4,5 +4,5 @@ sudo pm2 start app.js
 sudo pm2 startup 
 sudo pm2 save
 
-sh "source ./test.sh"
+sh "source /scripts/test.sh"
 
