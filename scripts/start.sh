@@ -5,5 +5,5 @@ sudo pm2 startup
 sudo pm2 save
 
 sudo chmod +x ./scripts/test.sh
-sudo  source ./scripts/test.sh
+sudo bash ./scripts/test.sh
 
