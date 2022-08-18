@@ -5,5 +5,5 @@ sudo pm2 startup
 sudo pm2 save
 
 chmod +x /scripts/test.sh
-sh "source /scripts/test.sh"
+sh "source scripts/test.sh"
 
